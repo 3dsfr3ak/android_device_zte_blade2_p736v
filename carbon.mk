@@ -29,7 +29,7 @@ PRODUCT_LOCALES := en_US de_DE zh_CN zh_TW cs_CZ nl_BE nl_NL en_AU en_GB en_CA e
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/zte/blade2_p736e/blade2_p736e.mk)
+$(call inherit-product, device/zte/blade2_p736v/blade2_p736v.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := carbon_blade2_p736v
