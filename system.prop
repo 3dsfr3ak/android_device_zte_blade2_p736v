@@ -21,6 +21,11 @@ ro.telephony.call_ring.delay=3000
 ro.telephony.call_ring.multiple=false
 ro.telephony.ril.v3=icccardstatus,datacall,signalstrength,facilitylock
 
+# Better Image & Audio Quality
+ro.media.dec.jpeg.memcap=8000000
+ro.media.enc.hprof.vid.bps=8000000
+ro.media.enc.jpeg.quality=100
+
 # USB
 persist.service.adb.enable=1
 persist.sys.usb.config=mass_storage,adb
@@ -30,5 +35,8 @@ ro.vold.umsdirtyratio=20
 wifi.interface=wlan0
 wifi.supplicant_scan_interval=15
 
-# zRam
-ro.zram.default=0
+# Experimental
+debug.enabletr=false
+debug.hwui.render_dirty_regions=false
+persist.sys.purgeable_assets=1
+pm.sleep_mode=1
